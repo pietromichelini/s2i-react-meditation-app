@@ -1,0 +1,25 @@
+.meditate{
+    background-color: #14F195;
+    font-size: large;
+    font-weight: 500;
+    border: none;
+    margin-right: 0.5rem;
+} 
+.btn{
+    padding: 0.5rem 1.5rem;
+    border-radius: 25px;
+    transition: 0.5s;
+    &:hover{
+        cursor: pointer;
+        color: black;
+        background-color: white;
+        transform: translateY(-5px);
+    }
+}
+.why-meditate{
+    background-color: rgba($color: #000000, $alpha: 0.6);
+    font-size: large;
+    font-weight: 500;
+    color: white;
+    border: 1px solid white;
+}

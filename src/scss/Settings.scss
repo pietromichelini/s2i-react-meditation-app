@@ -1,0 +1,19 @@
+.settings-slct{
+    background-color: transparent;
+    color: white;
+    // border: 1px solid white;
+    height: 5.5rem;
+    width: 5.5rem;
+    border-radius: 50%;
+    padding: 1.5rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-overflow: none;
+    text-align: center;
+
+    option{
+        text-align: center;
+    }
+}

@@ -1,0 +1,78 @@
+.congrats-container{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .congrats-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: auto;
+        padding-bottom: 2.5rem;
+        background-color: rgba(0,0,0,0.8);
+        z-index: 100;
+        overflow: hidden;
+        transition: 0.5s;
+        border: 1px solid white;
+        border-radius: 25px;
+    }
+    .congrats-text{
+        text-align: center;
+        h2{
+            font-size: xx-large;
+            text-transform: capitalize;
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-right: 3rem;
+            margin-left: 3rem;
+        }
+        p{
+            font-size: x-large;
+            margin-top: 0.5rem;
+            line-height: 1.5;
+            margin-bottom: 0;
+        }
+    }
+
+    .new-session{
+        background-color: #14F195;
+        margin-top: 1rem;
+        color: black;
+        font-size: 20px;
+        font-weight: bold;
+        border: none;
+        border-radius: 25px;
+        padding: 0.5rem 1.5rem;
+        transition: 0.5s;
+        &:hover{
+            background-color: white;
+            color: black;
+            cursor: pointer;
+        }
+    }
+    .congrats-x{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+
+        .x-btn{
+            border: none;
+            margin-right: 0.5rem;
+            margin-top: 1rem;
+            background-color: transparent;
+            color: white;
+            font-size: 1.5rem;
+            &:hover{
+                cursor: pointer;
+            }
+        }
+
+    }
+}
+

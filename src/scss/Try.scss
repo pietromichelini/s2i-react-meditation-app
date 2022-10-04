@@ -1,0 +1,89 @@
+.Try-header {
+    // background-color: black;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    overflow: hidden;
+  }
+
+.try-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 216px;
+    height: 100vh;
+    overflow: hidden;
+}
+.bg-vid{
+    position: absolute;
+    top:0;
+    left:0;
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    z-index: -2;
+}
+.btn-off{
+    opacity: 0.5;
+}
+.btn-off:hover{
+    cursor: not-allowed;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba($color: #000000, $alpha: 0.2);
+    z-index: -1;
+}
+
+// Timer.jsx
+
+// Settings.jsx
+.settings-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.settings-slct{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border: none;
+    border-radius: 25px;
+    height: auto;
+    width: auto;
+    padding: 1.5rem;
+    font-weight: light;
+    font-size: 2rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    overflow: visible;
+    // overflow: "";
+    text-align: center;
+
+    option{
+        text-align: center;
+        font-weight: lighter;
+    }
+}
+
+// isInvisible === true 
+
+.invisible{
+    opacity: 0;
+    transition: opacity 10s ease-out;
+//    center_opacity: 0.6,
+}
+
+// confetti 
+.confetti{
+    overflow: hidden;
+}

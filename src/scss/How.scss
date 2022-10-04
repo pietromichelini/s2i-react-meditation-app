@@ -1,0 +1,96 @@
+.how{
+  color: white;
+  height: 100vh;
+  text-align: left;
+  .Parent{
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    center{
+      width: 100%;
+    }
+
+    h1{
+      font-size: 70px;
+    }
+    p{
+      color: white;
+      font-size: x-large;
+      width: 90%;
+      // text-align: center;
+    }
+    ol{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      li{
+        font-size: x-large;
+        text-align: left;
+      }
+      
+    }
+    .video-container{
+      margin-top: 2rem;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      p{
+        color: white;
+        font-size: small;
+        text-align: center;
+      }
+      a{
+        color: white;
+        text-decoration: none;
+        &:hover{
+          text-decoration: underline;
+        }
+      }
+    }
+    .how-video{
+      // width: 40px;
+      height: 30rem;
+    }
+  }
+}
+
+
+@media screen and (max-width: 1300px){
+  .how{
+    .Parent{
+      margin-top: 5vh;
+    }
+  }
+}
+@media screen and (max-width: 900px){
+  .how{
+    .Parent{
+      height: 100%;
+    }
+      h1{
+          font-size: 15vw;
+      }
+      .video-container{
+        margin-top: 20vw;
+        .how-video{
+          height: auto;
+          width: 95vw;
+        }
+      }
+  }
+       
+}
+@media screen and (max-width: 500px){
+  .how{
+    .Parent{
+      .video-container{
+        margin-top: 10vh;
+      }
+    }
+  }
+}
