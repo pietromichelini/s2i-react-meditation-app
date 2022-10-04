@@ -25,7 +25,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-     <li><a href="#features">Features</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
@@ -103,11 +102,6 @@ On this website you can:
 2) actually have a meditation session with the background sound you prefer ([here](https://lotus-meditation.netlify.app/try)).
 
 <p align="center"><img src="https://user-images.githubusercontent.com/95065307/193950149-e972e3c8-96e0-4860-ba62-316e920014c9.gif" /></p>
-
-<!-- FEATURES -->
-## Features
-
-Th
 
 <!-- LICENSE -->
 ## License
