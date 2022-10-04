@@ -95,8 +95,11 @@ In alternative to steps 3 and 4 you can also just serve directly from source.
 
 This website gives you 2 options:
 1) learn about why and how you should meditate ([here](https://lotus-meditation.netlify.app/)).
+
 <p align="center"><img src="https://user-images.githubusercontent.com/95065307/193850089-7cf58efc-e3ca-4226-8442-e02b9de9f0df.gif" /></p>
+
 2) try to meditate with the background theme you prefer ([here](https://lotus-meditation.netlify.app/try)).
+
 <p align="center"><img src="https://user-images.githubusercontent.com/95065307/193850133-69ba2c4b-d052-43e8-834f-4cb0c4657cca.gif" /></p>
 
 <!-- FEATURES -->
