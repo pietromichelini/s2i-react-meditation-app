@@ -1,8 +1,5 @@
 import React from 'react'
-// import logo from '../logo.svg';
 import lotus from '../assets/image/lotus-cropped.gif'
-import Navbar from '../components/Navbar';
-
 import {Link} from "react-router-dom"
 import {Link as ScrollLink} from 'react-scroll'
 
