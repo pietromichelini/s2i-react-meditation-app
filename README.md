@@ -38,9 +38,6 @@
 <p> This project consists in a simple Meditation Website. </br>
 Click <a target="_blank" href="https://lotus-meditation.netlify.app/">here</a> to try it now. </p> 
 
-(The data displayed is fetched from [Teleport.org](https://developers.teleport.org/api/)'s free API)
-
-
 ### Built With
 * [ReactJS](https://reactjs.org/)
 * [Sass](https://sass-lang.com/)
@@ -89,14 +86,16 @@ If you don't have npm installed yet, simply type the following command in your t
 
 4. Open dist/index.html 
 
-In alternative to steps 3 and 4 you can also just serve directly from source (using [webpack-dev-server](https://webpack.js.org/configuration/dev-server/)).
+In alternative to steps 3 and 4 you can also just serve directly from source.
 ```sh
-   npm run dev
+   npm start
    ```
    
 ## Usage
 
-Simply type a city name in the search bar and click the "SEARCH" button. There will be 4 possible outcomes.
+This website gives you 2 options:
+1) learn about why and how you should meditate (on the Scrollpage).
+2) try to meditate with the background theme you prefer (on the Try page).
 
 1. If the name you have searched for matches exactly or is close enough to a city name present in Teleport.org's database. The site will display some information about that city. There will also be a "LEARN MORE" button at the bottom that will link to Teleport.org's page dedicated to that city (as shown in the gif below).
 
@@ -117,6 +116,9 @@ At the end of the page there will also be a "LEARN MORE" button that links to [T
 4. In any other case the site will display an error message (as shown in the gif below).
 
 <p align="center"><img src="https://user-images.githubusercontent.com/95065307/171325244-d85c37f3-8604-4acb-80b2-1c3da43dfa19.gif" /></p>
+
+<!-- FEATURES -->
+## Features
 
 <!-- LICENSE -->
 ## License
