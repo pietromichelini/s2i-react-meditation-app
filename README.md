@@ -1,70 +1,134 @@
-# Getting Started with Create React App
+<!-- PROJECT LOGO -->
+<div align="center">
+  <a href="https://github.com/pietromichelini/Webpack-QOL-Data-App/">
+    <img src="public/favicon.ico" alt="Logo" width="50" height="50">
+  </a>
+<h3 align="center">Move Informer</h3>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
 
-In the project directory, you can run:
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
-### `npm start`
+<p align="center"><img src="https://user-images.githubusercontent.com/95065307/171776882-54b5f12f-ae0e-45c7-a3ca-9830304c5570.gif" /></p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<p> This simple app allows the user to search for over 200 cities and displays data about their quality of life. </br>
+Click <a target="_blank" href="https://rainbow-churros-a483c4.netlify.app/">here</a> to try it now. </p> 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+(The data displayed is fetched from [Teleport.org](https://developers.teleport.org/api/)'s free API)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Built With
+* HTML
+* CSS
+* JS
+* [Webpack](https://webpack.js.org)
+* [Sass](https://sass-lang.com/)
+* [Lodash](https://lodash.com)
+* [Axios](https://axios-http.com/)
+* [Webpack-Dotenv](https://www.npmjs.com/package/dotenv-webpack)
 
-### `npm run build`
+<!-- GETTING STARTED -->
+## Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To get a local copy up and running follow these simple steps.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* [Node.js](https://nodejs.org/en/)
+* [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-### `npm run eject`
+If you don't have Node installed yet, click [here](https://nodejs.org/en/).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+If you don't have npm installed yet, simply type the following command in your terminal.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  ```sh
+  npm install npm@latest -g
+  ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Installation
 
-## Learn More
+1. Clone the repo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   ```sh
+   git clone https://github.com/pietromichelini/Webpack-QOL-Data-App.git
+   ```
+2. Install NPM packages
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   ```sh
+   npm install
+   ```
+3. Build from source 
 
-### Code Splitting
+   ```sh
+   npm run build
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+4. Open dist/index.html 
 
-### Analyzing the Bundle Size
+In alternative to steps 3 and 4 you can also just serve directly from source (using [webpack-dev-server](https://webpack.js.org/configuration/dev-server/)).
+```sh
+   npm run dev
+   ```
+   
+## Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Simply type a city name in the search bar and click the "SEARCH" button. There will be 4 possible outcomes.
 
-### Making a Progressive Web App
+1. If the name you have searched for matches exactly or is close enough to a city name present in Teleport.org's database. The site will display some information about that city. There will also be a "LEARN MORE" button at the bottom that will link to Teleport.org's page dedicated to that city (as shown in the gif below).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="center"><img src="https://user-images.githubusercontent.com/95065307/171222921-88c37db1-877f-449a-b5f6-92974d3376f7.gif" /></p>
 
-### Advanced Configuration
+At the end of the page there will also be a "LEARN MORE" button that links to [Teleport.org](https://developers.teleport.org/api/)'s page regarding the city searched by the user (as shown in the gif below).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+<p align="center"><img src="https://user-images.githubusercontent.com/95065307/171333821-0d6a64ba-2854-46ec-9efe-ab10865d0595.gif" /></p>
 
-### Deployment
+2. If the name you have searched for is NOT close enough to any of the actual city names present in Teleport.org's database. The site will display an error message (as shown in the gif below).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="center"><img src="https://user-images.githubusercontent.com/95065307/171223535-2dfd26dd-3a15-4883-b74d-b363d74872fe.gif" /></p>
 
-### `npm run build` fails to minify
+3. If you have clicked the "SEARCH" button without entering any characters. The site will display error message (as shown in the gif below).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<p align="center"><img src="https://user-images.githubusercontent.com/95065307/171325223-944930d0-9e86-40f7-828c-f4a98828bed0.gif" /></p>
+
+4. In any other case the site will display an error message (as shown in the gif below).
+
+<p align="center"><img src="https://user-images.githubusercontent.com/95065307/171325244-d85c37f3-8604-4acb-80b2-1c3da43dfa19.gif" /></p>
+
+<!-- LICENSE -->
+## License
+
+Distributed under the MIT License. See `LICENSE.txt` for more information.
+
+<!-- CONTACT -->
+## Contact
+
+Pietro Michelini - pietro.michelini@gmail.com
+
+Project Links: 
+- [Github Repository](https://github.com/github_username/repo_name)
+- [Netlify Website](https://rainbow-churros-a483c4.netlify.app/)
