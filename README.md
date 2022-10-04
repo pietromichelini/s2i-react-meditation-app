@@ -3,7 +3,7 @@
   <a href="https://github.com/pietromichelini/Webpack-QOL-Data-App/">
     <img src="public/favicon.ico" alt="Logo" width="50" height="50">
   </a>
-<h3 align="center">Move Informer</h3>
+<h3 align="center">Lotus Meditation</h3>
 </div>
 
 
@@ -32,8 +32,9 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
+![ezgif com-gif-maker (11)](https://user-images.githubusercontent.com/95065307/193828489-6c2e22bc-ee08-4679-b032-e5f32070e988.gif)
 
-<p align="center"><img src="https://user-images.githubusercontent.com/95065307/171776882-54b5f12f-ae0e-45c7-a3ca-9830304c5570.gif" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/95065307/193828489-6c2e22bc-ee08-4679-b032-e5f32070e988.gif" /></p>
 
 <p> This simple app allows the user to search for over 200 cities and displays data about their quality of life. </br>
 Click <a target="_blank" href="https://rainbow-churros-a483c4.netlify.app/">here</a> to try it now. </p> 
@@ -42,14 +43,9 @@ Click <a target="_blank" href="https://rainbow-churros-a483c4.netlify.app/">here
 
 
 ### Built With
-* HTML
-* CSS
-* JS
-* [Webpack](https://webpack.js.org)
+* [ReactJS](https://reactjs.org/)
 * [Sass](https://sass-lang.com/)
-* [Lodash](https://lodash.com)
-* [Axios](https://axios-http.com/)
-* [Webpack-Dotenv](https://www.npmjs.com/package/dotenv-webpack)
+* [Sass](https://sass-lang.com/)
 
 <!-- GETTING STARTED -->
 ## Getting Started
