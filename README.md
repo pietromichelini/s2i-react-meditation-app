@@ -39,6 +39,7 @@
 Click <a target="_blank" href="https://lotus-meditation.netlify.app/">here</a> to try it now. </p> 
 
 ### Built With
+
 * [ReactJS](https://reactjs.org/)
 * [Sass](https://sass-lang.com/)
 * [react-router-dom](https://www.npmjs.com/package/react-router-dom)
@@ -95,11 +96,11 @@ In alternative to steps 3 and 4 you can also just serve directly from source.
 
 On this website you can:
 
-1) learn about why and how you should meditate ([here](https://lotus-meditation.netlify.app/)).
+1) learn about why and how you should meditate.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/95065307/193850089-7cf58efc-e3ca-4226-8442-e02b9de9f0df.gif" /></p>
 
-2) actually have a meditation session with the background sounds you prefer ([here](https://lotus-meditation.netlify.app/try)).
+2) actually have a meditation session with the background sounds you prefer.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/95065307/193950149-e972e3c8-96e0-4860-ba62-316e920014c9.gif" /></p>
 
@@ -114,5 +115,5 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 Pietro Michelini - pietro.michelini@gmail.com
 
 Project Links: 
-- [Github Repository](https://github.com/github_username/repo_name)
-- [Netlify Website](https://lotus-meditation.netlify.app/try)
+- [Github Repository](https://github.com/pietromichelini/s2i-react-meditation-app)
+- [Netlify Website](https://lotus-meditation.netlify.app)
