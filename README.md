@@ -32,12 +32,11 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-![ezgif com-gif-maker (11)](https://user-images.githubusercontent.com/95065307/193828489-6c2e22bc-ee08-4679-b032-e5f32070e988.gif)
 
 <p align="center"><img src="https://user-images.githubusercontent.com/95065307/193828489-6c2e22bc-ee08-4679-b032-e5f32070e988.gif" /></p>
 
-<p> This simple app allows the user to search for over 200 cities and displays data about their quality of life. </br>
-Click <a target="_blank" href="https://rainbow-churros-a483c4.netlify.app/">here</a> to try it now. </p> 
+<p> This project consists in a simple Meditation Website. </br>
+Click <a target="_blank" href="https://lotus-meditation.netlify.app/">here</a> to try it now. </p> 
 
 (The data displayed is fetched from [Teleport.org](https://developers.teleport.org/api/)'s free API)
 
@@ -45,7 +44,11 @@ Click <a target="_blank" href="https://rainbow-churros-a483c4.netlify.app/">here
 ### Built With
 * [ReactJS](https://reactjs.org/)
 * [Sass](https://sass-lang.com/)
-* [Sass](https://sass-lang.com/)
+* [react-router-dom](https://www.npmjs.com/package/react-router-dom)
+* [react-scroll](https://www.npmjs.com/package/react-scroll)
+* [react-circular-progressbar](https://www.npmjs.com/package/react-circular-progressbar)
+* [react-outside-click-handler](https://www.npmjs.com/package/react-outside-click-handler)
+* [react-confetti](https://www.npmjs.com/package/react-confetti)
 
 <!-- GETTING STARTED -->
 ## Getting Started
