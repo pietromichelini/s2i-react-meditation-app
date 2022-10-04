@@ -99,7 +99,7 @@ On this website you can:
 
 <p align="center"><img src="https://user-images.githubusercontent.com/95065307/193850089-7cf58efc-e3ca-4226-8442-e02b9de9f0df.gif" /></p>
 
-2) actually have a meditation session with the background sound you prefer ([here](https://lotus-meditation.netlify.app/try)).
+2) actually have a meditation session with the background sounds you prefer ([here](https://lotus-meditation.netlify.app/try)).
 
 <p align="center"><img src="https://user-images.githubusercontent.com/95065307/193950149-e972e3c8-96e0-4860-ba62-316e920014c9.gif" /></p>
 
