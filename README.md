@@ -1,6 +1,6 @@
 <!-- PROJECT LOGO -->
 <div align="center">
-  <a href="https://github.com/pietromichelini/Webpack-QOL-Data-App/">
+  <a href="https://github.com/pietromichelini/s2i-react-meditation-app/">
     <img src="public/favicon.ico" alt="Logo" width="50" height="50">
   </a>
 <h3 align="center">Lotus Meditation</h3>
@@ -71,7 +71,7 @@ If you don't have npm installed yet, simply type the following command in your t
 1. Clone the repo
 
    ```sh
-   git clone https://github.com/pietromichelini/Webpack-QOL-Data-App.git
+   git clone https://github.com/pietromichelini/s2i-react-meditation-app.git
    ```
 2. Install NPM packages
 
@@ -95,9 +95,9 @@ In alternative to steps 3 and 4 you can also just serve directly from source.
 
 This website gives you 2 options:
 1) learn about why and how you should meditate ([here](https://lotus-meditation.netlify.app/)).
+<p align="center"><img src="https://user-images.githubusercontent.com/95065307/193850089-7cf58efc-e3ca-4226-8442-e02b9de9f0df.gif" /></p>
 2) try to meditate with the background theme you prefer ([here](https://lotus-meditation.netlify.app/try)).
-
-<p align="center"><img src="https://user-images.githubusercontent.com/95065307/171325244-d85c37f3-8604-4acb-80b2-1c3da43dfa19.gif" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/95065307/193850133-69ba2c4b-d052-43e8-834f-4cb0c4657cca.gif" /></p>
 
 <!-- FEATURES -->
 ## Features
