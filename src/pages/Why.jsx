@@ -1,11 +1,11 @@
-import React,{useState} from 'react'
+import React from 'react'
 import data from '../assets/data'
 import Benefit from '../components/Benefit'
 import {FaLink} from 'react-icons/fa'
  
 function Why() {
 
-const [benefits, setBenefits] = useState(data)
+const benefits = data
 
 const benefitElements = benefits.map(benefit => (
   <Benefit 

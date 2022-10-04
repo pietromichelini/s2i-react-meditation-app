@@ -7,7 +7,6 @@ function Buttons(props) {
     className={props.isInvisible? "btn-container invisible": "btn-container"}
     >
           <button 
-            // className="timer-btn toggle" 
             className={props.timerFinished? 'timer-btn toggle btn-off' : 'timer-btn toggle'}
             onClick={props.toggle} 
             disabled={props.timerFinished? true : false}

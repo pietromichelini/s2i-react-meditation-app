@@ -1,12 +1,9 @@
 import React from 'react'
-import {FaTimesCircle, FaTimes} from 'react-icons/fa'
+import {FaTimesCircle} from 'react-icons/fa'
 import {motion} from "framer-motion"
 
 
 function Congrats(props) {
-  function close(){
-// codice che fa scomparire congrats-container
-  }
   return (
     <div 
     className='congrats-container'

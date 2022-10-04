@@ -7,10 +7,6 @@ import Footer from '../components/Footer'
 function CTA() {
   return (
     <div className='cta-container'>
-      {/* <video>
-        <source src={smokeVid} loop autoPlay muted type='video/mp4'/>
-      </video> */}
-      <div className='porcodio'>porcodio</div>
       <video className="cta-video-bg" src={smokeVid} loop autoPlay muted/>
         <center className="cta">
           <h1>Ready to meditate?</h1>

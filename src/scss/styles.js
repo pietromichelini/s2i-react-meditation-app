@@ -1,4 +1,5 @@
-import './Default.scss'
+
+import './General.scss'
 import './Navbar.scss'
 import './Settings.scss'
 import './Timer.scss'
