@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <div align="center">
   <a href="https://github.com/pietromichelini/Webpack-QOL-Data-App/">
-    <img src="src/assets/img/favicon.ico" alt="Logo" width="50" height="50">
+    <img src="public/favicon.ico" alt="Logo" width="50" height="50">
   </a>
 <h3 align="center">Move Informer</h3>
 </div>
