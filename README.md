@@ -102,12 +102,12 @@ On this website you can:
 
 2) actually have a meditation session with the background sound you prefer ([here](https://lotus-meditation.netlify.app/try)).
 
-<p align="center"><img src="https://user-images.githubusercontent.com/95065307/193945447-e6df94be-373c-450e-90b3-c4f3e666e84d.gif" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/95065307/193950149-e972e3c8-96e0-4860-ba62-316e920014c9.gif" /></p>
 
 <!-- FEATURES -->
 ## Features
 
-This website features
+Th
 
 <!-- LICENSE -->
 ## License
