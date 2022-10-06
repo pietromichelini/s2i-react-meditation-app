@@ -3,7 +3,6 @@ import {Routes, Route} from 'react-router-dom'
 import ScrollPage from './ScrollPage'
 
 import Try from './Try.jsx'
-import Navbar from '../components/Navbar'
 
 
 function Pages() {

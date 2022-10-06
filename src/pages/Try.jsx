@@ -13,9 +13,9 @@ import fireUrl from '../assets/audio/fire.mp3'
 
 import gong from '../assets/audio/gong.mp3'
 
-import rainBg from '../assets/video/rain3.mov'
-import wavesBg from '../assets/video/waves2.mp4'
-import forestBg from '../assets/video/forest1.mp4'
+import rainBg from '../assets/video/rain.mov'
+import wavesBg from '../assets/video/waves.mp4'
+import forestBg from '../assets/video/forest.mp4'
 import fireBg from '../assets/video/fire.mp4'
 
 function Try(props) {
